@@ -22,6 +22,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
@@ -51,7 +56,8 @@
             <artifactId>jdk.tools</artifactId>
             <version>1.8</version>
             <scope>system</scope>
-            <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
+            <!--<systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>-->
+            <systemPath>C:/jdk1.8.0_172/lib/tools.jar</systemPath>
         </dependency>
     </dependencies>
 
